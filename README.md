@@ -9,3 +9,7 @@ as reported by the system. Includes the executable image name.
 	func main(){  
 	  println(app.Path())
 	}
+
+install
+===
+go get github.com/axgle/app
