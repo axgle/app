@@ -14,7 +14,7 @@ var(
 func getExePath() (exePath string, err error) {
 	return getModuleFileName()
 }
-
+// from https://bitbucket.org/kardianos/service
 func getModuleFileName() (string, error) {
 	var n uint32
 	b := make([]uint16, syscall.MAX_PATH)
