@@ -7,3 +7,12 @@ package app
 func Path()  (string, error) {
   return getExePath(); 
 }
+
+
+func MustPath() (string) {
+  path,err:=getExePath(); 
+  if err!=nil {
+   panic("app.MustPath error")
+  }
+  return path
+}
