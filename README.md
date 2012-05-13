@@ -5,7 +5,7 @@ install
 ===
 `go get github.com/axgle/app`
 
-app.Path: Returns the full path of the running executable
+`app.Path`: Returns the full path of the running executable
 as reported by the system. Includes the executable image name.
 
 	package main
