@@ -16,4 +16,4 @@ as reported by the system. Includes the executable image name.
 
 install
 ===
-go get github.com/axgle/app
+`go get github.com/axgle/app`
