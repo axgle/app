@@ -1,8 +1,6 @@
 package app
 
 import (
-	
-
 	"syscall"
 	"unicode/utf16"
 	"unsafe"

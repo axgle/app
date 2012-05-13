@@ -6,8 +6,12 @@ as reported by the system. Includes the executable image name.
 	package main
 	import "github.com/axgle/app"
 
-	func main(){  
-	  println(app.Path())
+	func main(){
+	  execPath,err:=app.Path()
+	  if(err!=nil){
+		println("fail get the path")
+	   }
+	  println(execPath) 
 	}
 
 install
