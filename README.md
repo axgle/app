@@ -1,5 +1,10 @@
 Go's app informations
 ==============
+
+install
+===
+`go get github.com/axgle/app`
+
 app.Path: Returns the full path of the running executable
 as reported by the system. Includes the executable image name.
 
@@ -13,7 +18,3 @@ as reported by the system. Includes the executable image name.
 	   }
 	  println(execPath) 
 	}
-
-install
-===
-`go get github.com/axgle/app`
