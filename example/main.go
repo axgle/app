@@ -1,5 +1,5 @@
 package main
-import "./.."
+import "github.com/axgle/app"
 
 func main(){
   execPath,err:=app.Path()
